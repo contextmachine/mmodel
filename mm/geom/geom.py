@@ -1,9 +1,10 @@
 #  Copyright (c) 2022. Computational Geometry, Digital Engineering and Optimizing your construction processe"
+from __future__ import absolute_import
 
 import compas.geometry as cg
 import numpy as np
 
-from mm.baseitems import DictableItem, Item
+from ..baseitems import DictableItem, Item
 from ..meta import MetaItem
 
 mesh_js_schema = {
